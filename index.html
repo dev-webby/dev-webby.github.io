@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dev Webby: Free Online Tools</title>
+  <meta name="description" content="Dev Webby is a set of free online tools: image converter and compressor, photo requirements checker, translator, and a Lagos Life game guide. No sign-up needed.">
+  <link rel="canonical" href="https://dev-webby.github.io/">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="favicon-192.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dev Webby: Free Online Tools">
+  <meta property="og:description" content="Free online tools for images, photos, translation and more.">
+  <meta property="og:url" content="https://dev-webby.github.io/">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Dev Webby",
+    "alternateName": "Dev Webby Tools",
+    "url": "https://dev-webby.github.io/"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink: #111111; --lime: #C6F432; --paper: #F4F4EE; --mute: #8A8A82; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      font-family: "Archivo", system-ui, sans-serif;
+      background: var(--ink);
+      color: var(--paper);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 56px 24px 48px; }
+    h1 {
+      font-stretch: 62%;
+      font-weight: 900;
+      font-size: clamp(3.4rem, 15vw, 8.5rem);
+      line-height: 0.9;
+      text-transform: uppercase;
+      margin: 0 0 20px;
+    }
+    h1 span { color: var(--lime); }
+    .lede { font-size: 1.15rem; max-width: 36ch; margin: 0 0 56px; color: #D8D8D0; }
+    h2 { font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mute); margin: 0 0 8px; font-weight: 700; }
+    ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid #2E2E2A; }
+    li { border-bottom: 1px solid #2E2E2A; }
+    a.tool {
+      display: grid;
+      grid-template-columns: 2.2rem 1fr auto;
+      gap: 12px;
+      align-items: baseline;
+      padding: 22px 4px;
+      color: inherit;
+      text-decoration: none;
+      transition: background 0.15s ease, padding-left 0.15s ease;
+    }
+    a.tool:hover { background: #1B1B18; padding-left: 14px; }
+    a.tool:focus-visible { outline: 3px solid var(--lime); outline-offset: -3px; }
+    .num { color: var(--lime); font-weight: 800; }
+    .name { font-size: 1.4rem; font-weight: 800; display: block; }
+    .desc { color: #B5B5AD; font-size: 0.95rem; display: block; margin-top: 2px; }
+    .go { color: var(--lime); font-size: 1.4rem; font-weight: 800; }
+    footer { max-width: 880px; margin: 0 auto; padding: 0 24px 40px; color: var(--mute); font-size: 0.85rem; }
+    @media (prefers-reduced-motion: reduce) { a.tool { transition: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Dev <span>Webby</span></h1>
+    <p class="lede">Free online tools that run in your browser. No sign-up, no downloads.</p>
+
+    <h2>Tools</h2>
+    <ul>
+      <li>
+        <a class="tool" href="https://dev-webby.github.io/image-converter/">
+          <span class="num">01</span>
+          <span><span class="name">Image Converter &amp; Compressor</span><span class="desc">Convert images between JPG, PNG and WebP, and reduce file size.</span></span>
+          <span class="go" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      <li>
+        <a class="tool" href="https://dev-webby.github.io/Image-requirement-checker/">
+          <span class="num">02</span>
+          <span><span class="name">Photo Requirements Checker</span><span class="desc">Check and resize a photo's size, format and dimensions for passports, visas and social media.</span></span>
+          <span class="go" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      <li>
+        <a class="tool" href="https://dev-webby.github.io/Translator-/">
+          <span class="num">03</span>
+          <span><span class="name">Translator</span><span class="desc">Type on one side, read the translation on the other. Works on phone or desktop.</span></span>
+          <span class="go" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      <li>
+        <a class="tool" href="https://dev-webby.github.io/Lagos-life-game/">
+          <span class="num">04</span>
+          <span><span class="name">How to Play Lagos Life</span><span class="desc">A guide and link for the free Lagos life simulation browser game.</span></span>
+          <span class="go" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+    </ul>
+  </main>
+  <footer>&copy; Dev Webby</footer>
+</body>
+</html>
